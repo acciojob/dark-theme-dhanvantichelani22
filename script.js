@@ -1,13 +1,8 @@
 //your code here
-let main = document.querySelector("#app");
-let btn = document.querySelector("#swap");
 function swapTheme(){
-	btn.addEventListener('click',function(e){
-		e.preventDefault();
-		main.className = "night"
-		btn.className = "button_night";
-	
-	})
-	
+	var button = document.getElementById("swap");
+    var main = document.getElementById("app");
+    main.classList.toggle("night");
+    button.classList.toggle("button_night");
+
 }
-swapTheme();
