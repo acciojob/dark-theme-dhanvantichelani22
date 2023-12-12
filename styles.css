@@ -1,7 +1,8 @@
+#ptag{
+	color:cyan;
+}
 #app{
   height:90vh;
-	text-align:center;
-	color:skyblue;
 }
 .night{
   background-color: black;
@@ -10,8 +11,9 @@
 
 #swap{
   outline:0;
-	
 }
-div:hover{
-	background-color:black;
+
+.button_night{
+  background-color:blue;
+  color:white; 
 }
